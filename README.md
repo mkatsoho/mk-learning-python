@@ -26,7 +26,8 @@ The w3chool one is still a bit long, use this cheat sheet to wrap up.
 - Chinese cheat sheet - https://learnxinyminutes.com/docs/zh-cn/python-cn/
 
 3) Junior level books
-
+- English Book: [Head First Python 3rd Editon](https://www.oreilly.com/library/view/head-first-python/9781492051282)
+- Chinese Book: [Head First Python 中文版 第二版](https://spu.jd.com/10957017.html)
 
 
 4) python for machine learning (not cover Neural Network)
