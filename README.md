@@ -27,3 +27,14 @@ The w3chool one is still a bit long, use this cheat sheet to wrap up.
 
 3) Junior level books
 
+
+
+4) python for machine learning (not cover Neural Network)
+- Engilsh book: TBD
+- Chinese book: [李烨 机器学习极简入门](https://m.bookschina.com/8702521.htm) (本书较难买到，可以去国家图书馆借阅)
+   
+5) pyton for Deep Learning
+
+   TBD, suggest to read books or video tutorials about Pytorch
+
+   
