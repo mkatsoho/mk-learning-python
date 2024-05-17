@@ -1,7 +1,7 @@
 # mk-learning-python
-This intraduces a learning path for python3. I really encorage self-learning. 
+This introduces a learning path for python3. I really encorage self-learning. 
 
-NOTE: learn python3 rather than python2 (out of date)
+NOTE: Learn python3 rather than python2, which is out of date.
 
 ## Two learning methods
 - Learn from easy to complex.
