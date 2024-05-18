@@ -45,4 +45,29 @@ The w3chool one is still a bit long, use this cheat sheet to wrap up.
 - for a multi-language programmer: [vscode](https://code.visualstudio.com/)
 - for a none programmer: [pycharm](https://www.jetbrains.com/pycharm/download/)
 - for a person to learn python for deep learning: [colab web IDE with free/non-free GPUs](https://colab.research.google.com/)
+
+## Suggested practices (from easy to hard)
+1) direct coding
+
+   write codes to read .csv file and write to another .csv file (use basic file read/write functions, or use numpy functions for large volume data)
+
+2) use functions
+
+   rewrite 1), orgnize codes as functions, use cmdline parameters (e.g. input_file, output_file, etc) for reading/writing files, or make it woke like linux pipeline command
+   
+3) try machine learning
+
+   use limited dataset to do linear regression, logestic regression, refer to books about machine learning. Mostly leveaging scilearn (SKLearn) liberary.
+   
+4) use a out-of-box deep learning model for a business case
+
+   the goal is to use a model to achieve your business goal. Details are TBD.
+
+5) Use the out-of-box model in 4), retrain it using your data
+
+   retrain a out-of-box model, to make it suitable for your business data. Use the new model for your business case. This model should be more accurate/suitable then the 4) model. Unforturnately, a beginer's new model most likely is not as good as the 4) model. Tuning hyperparameters to improve your model's quality.
+
+6) create your own model of machine learning
+
+  beyond reusing a out-of-box model, create your own model and then train it to meet your business case. I suggest pytorch in all kinds of solutions. I hope I can give more details in this summer for your reference.
   
