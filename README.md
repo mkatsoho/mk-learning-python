@@ -59,7 +59,7 @@ The w3chool one is still a bit long, use this cheat sheet to wrap up.
 
    use limited dataset to do linear regression, logestic regression, refer to books about machine learning. Mostly leveaging scilearn (SKLearn) liberary.
    
-4) use a out-of-box deep learning model for a business case
+4) use a out-of-box deep learning model for a business casehttps://racket-lang.org/
 
    the goal is to use a model to achieve your business goal. Details are TBD.
 
@@ -70,4 +70,31 @@ The w3chool one is still a bit long, use this cheat sheet to wrap up.
 6) create your own model of machine learning
 
   beyond reusing a out-of-box model, create your own model and then train it to meet your business case. I suggest pytorch in all kinds of solutions. I hope I can give more details in this summer for your reference.
+
+  ## Beyond python
+
+  You are quit familar with python now and want to make a break through. Let's try functional programming (FP) rather than object oriented programming (OOP). A few suggested next-step functional programming langusages:
+
+  - [racket](https://racket-lang.org/) easy to learn, but not suitable for business. A recomended start-point for your learning
+  - [clojure](https://clojure.org/) a modern FP language, suitable for business, based on Java Virtual Machine (JVM)
+  - [elixir](https://elixir-lang.org/) a modern FP language on top of Erlang (a ultra-old FP language), suitable for concurrent business, based on BEAM virtual machine
+
+```
+In short, JVM is the base runtime of Java and quite a few moden languages. if
+you heard the slogon "running anywhere", these words give a positive comments
+to JVM instead of Java. JVM can run on all kinds of Operation Systems and/or
+hardware.
+
+BEAM:
+The virtual machine on which both Elixir and Erlang run. BEAM is specifically
+designed for running concurrent and distributed systems, making it highly suitable
+for telecommunications, messaging systems, and other applications requiring high
+availability and reliability.
+
+JVM:
+The virtual machine on which Java and other JVM languages (like Scala, Kotlin,
+ and Clojure) run. The JVM is optimized for running object-oriented languages
+and provides features like automatic memory management and platform independence.
+```
+
   
